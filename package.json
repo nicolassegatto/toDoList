@@ -1,0 +1,21 @@
+{
+  "name": "to-do-list",
+  "version": "1.0.0",
+  "description": "lista de tarefas",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "start mongod && start nodemon"
+  },
+  "author": "Nicolas Segatto",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "method-override": "^3.0.0",
+    "mongoose": "^6.5.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
